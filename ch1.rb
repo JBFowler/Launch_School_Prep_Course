@@ -15,7 +15,7 @@ def factorial(num)
   loop do
     if num > 1
       total = total * num
-      num = num - 1
+      num -= 1
     else
       prompt(total)
       break
